@@ -1,9 +1,6 @@
 <?php
 
 //class
-
-use Produk as GlobalProduk;
-
 class Produk {
     //property
     public  $judul,
@@ -69,4 +66,7 @@ $produk2 = new Game("uncharted","Neil Druckman","Sony Computer",250000,0,50);
 
 $infoProduk1 = new CetakInfoProduk();
 echo $infoProduk1->cetak($produk1);
+echo "<br>";
 echo $produk1->getInfoProduk();
+echo "<br>";
+echo $produk2->getInfoProduk();
